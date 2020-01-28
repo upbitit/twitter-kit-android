@@ -24,9 +24,9 @@ import com.example.app.R;
 import com.example.app.tweetui.TweetActivity;
 import com.squareup.spoon.Spoon;
 
-import static android.support.test.espresso.Espresso.*;
-import static android.support.test.espresso.action.ViewActions.*;
-import static android.support.test.espresso.matcher.ViewMatchers.*;
+import static androidx.test.espresso.Espresso.*;
+import static androidx.test.espresso.action.ViewActions.*;
+import static androidx.test.espresso.matcher.ViewMatchers.*;
 
 /**
  * UI/integration tests of Tweet views added to the layout via code (requires network connectivity).

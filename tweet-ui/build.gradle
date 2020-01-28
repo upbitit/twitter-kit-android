@@ -19,7 +19,6 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion rootProject.compileSdkVersion
-    buildToolsVersion rootProject.buildToolsVersion
 
     defaultConfig {
         versionCode 1
@@ -73,13 +72,14 @@ dependencies {
     implementation dependency.supportCoreV4
     implementation dependency.supportCompatV4
     implementation dependency.recyclerview
+    implementation dependency.annotation
 
     androidTestCompile dependency.retrofitMock
     androidTestCompile dependency.mockito
     androidTestCompile dependency.dexmakerMockito
 
     testCompile dependency.mockito
-    testCompile dependency.junit
+    implementation dependency.junit
     testCompile(dependency.robolectric) {
         exclude group: 'commons-logging', module: 'commons-logging'
         exclude group: 'org.apache.httpcomponents', module: 'httpclient'

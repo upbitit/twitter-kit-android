@@ -21,7 +21,7 @@ import android.app.Application;
 import android.app.KeyguardManager;
 import android.content.Context;
 import android.os.PowerManager;
-import android.support.test.runner.AndroidJUnitRunner;
+import androidx.test.runner.AndroidJUnitRunner;
 
 // Borrowed from spoon-sample app
 // android.permission.DISABLE_KEYGUARD and android.permission.WAKE_LOCK permission is required

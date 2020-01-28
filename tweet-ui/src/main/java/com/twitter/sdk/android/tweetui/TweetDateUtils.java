@@ -18,7 +18,7 @@
 package com.twitter.sdk.android.tweetui;
 
 import android.content.res.Resources;
-import android.support.v4.util.SparseArrayCompat;
+import androidx.collection.SparseArrayCompat;
 import android.text.format.DateUtils;
 
 import java.text.DateFormat;

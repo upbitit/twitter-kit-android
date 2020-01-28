@@ -19,8 +19,8 @@ package com.example.app.tweetui;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.app.ActionBar;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+import androidx.appcompat.app.ActionBar;
 import android.view.View;
 import android.widget.AbsListView;
 import android.widget.ListView;

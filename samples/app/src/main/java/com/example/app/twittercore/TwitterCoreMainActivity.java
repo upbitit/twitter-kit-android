@@ -20,7 +20,7 @@ package com.example.app.twittercore;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
+import androidx.appcompat.app.ActionBar;
 import android.widget.Toast;
 
 import com.example.app.BaseActivity;

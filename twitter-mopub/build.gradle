@@ -19,7 +19,6 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion rootProject.compileSdkVersion
-    buildToolsVersion rootProject.buildToolsVersion
 
     defaultConfig {
         versionCode 1
@@ -71,6 +70,7 @@ dependencies {
     api (dependency.mopub) {
         transitive = true
     }
+    implementation dependency.annotation
 
     testCompile dependency.mockito
     testCompile dependency.junit

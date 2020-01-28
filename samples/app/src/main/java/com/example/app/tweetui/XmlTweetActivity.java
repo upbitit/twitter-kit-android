@@ -18,8 +18,8 @@
 package com.example.app.tweetui;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.ActionBar;
+import androidx.fragment.app.Fragment;
+import androidx.appcompat.app.ActionBar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

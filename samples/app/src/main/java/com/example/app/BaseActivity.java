@@ -17,8 +17,8 @@
 
 package com.example.app;
 
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 /**
  * BaseActivity is an AppCompatActivity which sets up a Toolbar if present in the layout.

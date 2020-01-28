@@ -21,10 +21,12 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
+import androidx.viewpager.widget.ViewPager;
+
 /**
  * ViewPagerFixed - Prevents ViewPager from crashing on repeated multi-touch gestures (zoom in/out)
  */
-public class ViewPagerFixed extends android.support.v4.view.ViewPager {
+public class ViewPagerFixed extends ViewPager {
 
     public ViewPagerFixed(Context context) {
         super(context);

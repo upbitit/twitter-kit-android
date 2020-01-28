@@ -17,7 +17,7 @@
 
 package com.twitter.sdk.android.tweetui;
 
-import android.support.test.espresso.IdlingResource;
+import androidx.test.espresso.IdlingResource;
 import android.view.View;
 
 /**
